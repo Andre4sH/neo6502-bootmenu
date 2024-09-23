@@ -27,4 +27,4 @@ For quick access via function keys, you can also assign the menu to a key of you
 ```plaintext
 fkey <1-9>, "run "+chr$(34)+"/bootmenu.bas"+chr$(34)+chr$(13)
 ```
-This allows the boot menu to be launched instantly by pressing the assigned function key during startup.
+This allows the boot menu to be launched instantly by pressing the assigned function key.
