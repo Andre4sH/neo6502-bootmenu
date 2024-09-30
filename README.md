@@ -5,7 +5,7 @@ neo6502-bootmenu is a lightweight program that reads from a configuration file t
 The boot menu entries are defined in the bootmenu.cfg file, using a CSV-style format. Each line in the file represents a menu option and follows this structure:
 
 Display Name, installation folder, executable (*.neo, *.bas), text color code
-Example:
+## Example:
 
 ```plaintext
 Game 1, /games, game1.bas,3
@@ -14,7 +14,7 @@ Text Editor, /apps, editor.bas,5
 
 You can manually edit bootmenu.cfg using any text editor or use the included bootmenu_editor.bas tool. 
 
-# Adding Entries to the Menu
+## Adding Entries to the Menu
 To update the menu, either edit the bootmenu.cfg file directly or use the bootmenu_editor.bas program. This tool is at the moment just a basic program that write a new configuration file to your SD-key. A better way to edit the bootmenu will be added at some point.  
 
 # Autostart Instructions
